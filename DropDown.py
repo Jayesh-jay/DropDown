@@ -25,7 +25,7 @@ if __name__ == "__main__":
     imdb_search_page = IMDbSearchPage(driver)
     imdb_search_page.open_page()
     imdb_search_page.perform_search("Tom Hanks")
-    # Add assertions or further actions as needed
+  
 
     # Close the browser window
     driver.quit()
